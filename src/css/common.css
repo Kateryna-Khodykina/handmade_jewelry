@@ -1,1 +1,8 @@
 @import 'modern-normalize';
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
