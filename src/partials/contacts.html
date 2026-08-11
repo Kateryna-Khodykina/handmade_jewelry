@@ -1,1 +1,116 @@
 <!-- Contacts -->
+<section class="contacts" id="contacts">
+  <div class="container">
+    <p class="contacts-subtitle">Connect</p>
+
+    <h2 class="contacts-title">Order your unique jewelry</h2>
+
+    <p class="contacts-text">
+      We'd love to hear more details from you!
+    </p>
+
+    <div class="contacts-wrapper">
+      <form class="contacts-form">
+        <div class="contacts-form-field">
+          <label class="contacts-label" for="user-name">Name*</label>
+
+          <input
+            class="contacts-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Tony"
+            pattern="^[a-zA-Z\s\.]{5,28}$"
+            required
+          />
+
+          <span class="contacts-error">Error Text</span>
+        </div>
+
+        <div class="contacts-form-field">
+          <label class="contacts-label" for="user-phone">Phone*</label>
+
+          <input
+            class="contacts-input"
+            type="tel"
+            id="user-phone"
+            name="user-phone"
+            placeholder="+1 234 567 8900"
+            pattern="^\+[0-9\s]{14}$"
+            required
+          />
+
+          <span class="contacts-error">Error Text</span>
+        </div>
+
+        <div class="contacts-form-field">
+          <label class="contacts-label" for="user-message">
+            Describe what you want
+          </label>
+
+          <textarea
+            class="contacts-textarea"
+            id="user-message"
+            name="user-message"
+            placeholder="Type your message..."
+            minlength="20"
+            maxlength="500"
+          ></textarea>
+        </div>
+
+        <button class="contacts-btn" type="submit">
+          Submit
+        </button>
+      </form>
+
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <svg class="contacts-icon" width="32" height="32">
+            <use href="../images/symbol-defs.svg#icon-envelope"></use>
+          </svg>
+
+          <h3 class="contacts-item-title">Email</h3>
+
+          <a
+            class="contacts-link"
+            href="mailto:info@handmadejewelry.com"
+          >
+            info@handmadejewelry.com
+          </a>
+        </li>
+
+        <li class="contacts-item">
+          <svg class="contacts-icon" width="32" height="32">
+            <use href="../images/symbol-defs.svg#icon-phone"></use>
+          </svg>
+
+          <h3 class="contacts-item-title">Phone</h3>
+
+          <a
+            class="contacts-link"
+            href="tel:+15550000000"
+          >
+            +1 (555) 000-0000
+          </a>
+        </li>
+
+        <li class="contacts-item">
+          <svg class="contacts-icon" width="32" height="32">
+            <use href="../images/symbol-defs.svg#icon-map"></use>
+          </svg>
+
+          <h3 class="contacts-item-title">Office</h3>
+
+          <a
+            class="contacts-link"
+            href="https://maps.google.com/?q=76-8+Oakington+Manor+Dr,+London,+UK"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            76-8 Oakington Manor Dr, London, UK
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
