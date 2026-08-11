@@ -5,7 +5,7 @@
   margin: 0 auto;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../images/hero/hero-img-mobile.webp');
+    url('../images/hero320@1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,7 +17,7 @@ tablet padding: 0 32px; mobile padding: 0 12px 0 20px;!! */
   .hero {
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('../images/hero/hero-img-mobile@2x.webp');
+      url('../images/hero320@2x.jpg');
   }
 }
 .hero-title {
@@ -67,29 +67,27 @@ tablet padding: 0 32px; mobile padding: 0 12px 0 20px;!! */
   box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
   background-color: #ccc16e;
 }
-/* .hero-btn.is-inactive {
-  background-color: #ccc16e;
-  opacity: 0.3;
-} */
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 160px 0 435px;
+    padding: 160px 32px 0;
+    height: 864px;
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('../images/hero/hero-img-tablet.webp');
+      url('../images/hero-tab@1x.jpg');
   }
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-image:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('../images/hero/hero-img-tablet@2x.webp');
+        url('../images/hero-tab@2x.jpg');
     }
   }
   .hero-btn {
-    margin-left: 0;
-    margin-right: auto;
-    max-width: 217px;
+    width: 217px;
+    height: 36px;
+    max-width: none;
+    margin: 0;
   }
   .hero-title {
     max-width: 513px;
@@ -101,24 +99,27 @@ tablet padding: 0 32px; mobile padding: 0 12px 0 20px;!! */
 
 @media screen and (min-width: 1440px) {
   .hero {
-    padding: 224px 0 360px;
+    padding: 224px 0 0 64px;
+    height: 864px;
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url('../images/hero/hero-img-desktop.webp');
+      url('../images/hero-ds@1x.jpg');
   }
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-image:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('../images/hero/hero-img-desktop@2x.webp');
+        url('../images/hero-ds@2x.jpg');
     }
   }
   .hero-btn {
-    margin-left: 0;
-    margin-right: auto;
-    max-width: 192px;
+    width: 192px;
+    height: 36px;
+    max-width: none;
+    margin: 0;
   }
   .hero-title {
+    font-size: 56px;
     max-width: 640px;
   }
   .hero-text {
