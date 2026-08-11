@@ -79,15 +79,15 @@
 }
 
 .about-us__item--leaf::before {
-  background-image: url('../images/about-us/icon-leaf.svg');
+  background-image: url('../images/about/leaf.svg');
 }
 
 .about-us__item--heart::before {
-  background-image: url('../images/about-us/icon-donate-heart.svg');
+  background-image: url('../images/about/donate-heart.svg');
 }
 
 .about-us__item--book::before {
-  background-image: url('../images/about-us/icon-book.svg');
+  background-image: url('../images/about/book.svg');
 }
 
 .about-us__item-text {

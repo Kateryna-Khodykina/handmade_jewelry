@@ -1,20 +1,28 @@
+<!-- About us -->
 <section class="about-us" id="about-us">
   <div class="about-us__container">
     <div class="about-us__media">
-      <img
-        class="about-us__image"
-        src="./images/about-us/about-us.jpg"
-        srcset="
-          ./images/about-us/about-us.jpg    640w,
-          ./images/about-us/about-us@2x.jpg 1280w
-        "
-        sizes="(min-width: 1440px) 640px, 100vw"
-        alt="Jeweler polishing a handmade ring with a rotary tool"
-        width="640"
-        height="456"
-        loading="lazy"
-        decoding="async"
-      />
+     <source
+    media="(min-width: 768px)"
+    srcset="
+      ./images/about/about-img-tablet.webp 1x,
+      ./images/about/about-img-tablet@2x.webp 2x
+    "
+  />
+
+  <img
+    class="about-us__image"
+    src="./images/about/about-img-mob.webp"
+    srcset="
+      ./images/about/about-img-mob.webp 1x,
+      ./images/about/about-img-mob@2x.webp 2x
+    "
+    alt="Jeweler polishing a handmade ring with a rotary tool"
+    width="335"
+    height="335"
+    loading="lazy"
+  />
+</picture>
     </div>
 
     <div class="about-us__content">
