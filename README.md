@@ -8,7 +8,7 @@ Handmade Jewelry — командный учебный проект, разра�
 
 👥 Команда проекта
 
-* Kateryna Khodykina (Kateryna-Khodykina) — Team Lead
+* Kateryna Khodykina (Kateryna-Khodykina) — Team Lead / Mobile-Menu / Footer
 * Andrii Mykhailov (AndriiMy) — Scrum Master / Testimonials
 * Yevhenii Shep (Yevhenii-Shep) — About Us
 * Olga (lazerolga) — Header & Hero
